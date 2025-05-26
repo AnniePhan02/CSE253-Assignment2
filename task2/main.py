@@ -69,12 +69,17 @@ import csv
 
 notes = []
 
-with open("typing_intervals.csv", "r") as f:
+with open("typing_intervals3.csv", "r") as f:
     reader = csv.reader(f)
     # skip header
     next(reader)
     for row in reader:
-        letter, time = row[0], float(row[1])
+        letter, time = row[0], row[1]
+
+        if not letter or not time:
+            continue
+
+        time = float(time)
         letter = letter.lower()
 
         # velocity is used from mapping function, mapping is based on keyboard layout
