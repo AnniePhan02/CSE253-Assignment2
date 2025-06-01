@@ -45,6 +45,7 @@ def step(b_i, t_i, v_i, k_prev, h):
 # k1, h, p = step(b_i=3, t_i=0.57, v_i=90, k_prev=k_prev, h=h)
 
 
+# version 1
 def letter_to_button_keyboard(letter):
     # Map letters on the keyboard to button indices, top row, middle row, bottom row
     top = "qwertyuiop"
@@ -60,6 +61,15 @@ def letter_to_button_keyboard(letter):
         return 0, 0
 
 
+def letter_to_button_26(letter):
+    # Map letters to button indices for a 26-letter keyboard layout
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    if letter in alphabet:
+        return alphabet.index(letter)
+    else:
+        return 0  # Default case for unsupported characters
+
+
 # read typing_intervals.csv
 import csv
 
@@ -69,24 +79,41 @@ import csv
 
 notes = []
 
-with open("typing_intervals3.csv", "r") as f:
+filename = "typing_wpm_timestamps.csv"
+filename_no_ext = filename.split(".")[0]
+
+with open(filename, "r") as f:
     reader = csv.reader(f)
     # skip header
     next(reader)
     for row in reader:
-        letter, time = row[0], row[1]
+        print(row)
+        letter, time, wpm = row[0], row[1], row[2]
 
         if not letter or not time:
+            print("Skipping empty row")
             continue
 
+        # check if wpm is numeric
+        # if not wpm.isnumeric():
+        #     print(f"Skipping non-numeric wpm: {wpm}")
+        #     continue
+
         time = float(time)
+        wpm = float(wpm)
+
+        print(letter, time, wpm)
+        # convert letter to button index and velocity
         letter = letter.lower()
 
         # velocity is used from mapping function, mapping is based on keyboard layout
-        button, velocity = letter_to_button_keyboard(letter)
+        button = letter_to_button_26(letter)
+        velocity = int(wpm * 2)
+        # ensure velocity is in range 1-127
+        velocity = max(1, min(127, velocity))
         k_prev, h, probs = step(b_i=button, t_i=time, v_i=velocity, k_prev=k_prev, h=h)
         notes.append((k_prev.item(), time, velocity))
-
+print(notes)
 # generate the midi file
 import pretty_midi
 import time
@@ -101,8 +128,9 @@ for i, (note, onset, vel) in enumerate(notes):
     else:
         end = onset + 0.5
     pm_note = pretty_midi.Note(velocity=vel, pitch=note, start=onset, end=end)
+    print(pm_note)
     instr.notes.append(pm_note)
 
 pm.instruments.append(instr)
-filename = f"output_{time.time()}.mid"
+filename = f"output_{time.time()}_{filename_no_ext}.mid"
 pm.write(filename)

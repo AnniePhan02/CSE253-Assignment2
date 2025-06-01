@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <textarea id="t" rows="10" cols="60" placeholder="Start typing…"></textarea>
+    <br />
+    <button id="download">Download CSV</button>
+
+    <script>
+      let startTime = null;
+      let charCount = 0;
+      // Header: Key, Seconds since first press, WPM at that moment
+      const rows = [["Key", "Seconds", "WPM"]];
+
+      const log = (key, secs, wpm) => {
+        rows.push([key, secs.toFixed(3), wpm.toFixed(1)]);
+      };
+
+      document.getElementById("t").addEventListener("keydown", (e) => {
+        if (startTime === null) {
+          startTime = performance.now();
+        }
+        charCount++;
+        const now = performance.now();
+        const elapsedMs = now - startTime;
+        const elapsedSecs = elapsedMs / 1000;
+        const elapsedMins = elapsedMs / 60000;
+        // WPM = (chars ÷ 5) ÷ elapsedMinutes
+        const wpm = charCount / 5 / elapsedMins;
+        log(e.key, elapsedSecs, wpm);
+      });
+
+      document.getElementById("download").addEventListener("click", () => {
+        const csvContent = rows.map((r) => r.join(",")).join("\n");
+        const blob = new Blob([csvContent], { type: "text/csv" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "typing_wpm_timestamps.csv";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
+    </script>
+  </body>
+</html>
