@@ -3,7 +3,10 @@
 This repo contains our project for CSE 253, where we explore music! It contains our generated music and code. 
 
 ## Team Members:
-
+- Andrew Pan
+- Annie Phan
+- Steven Shi
+- Andy Smithwick
 
 ## Repo Structure
 - task1/ (code for task 1)
