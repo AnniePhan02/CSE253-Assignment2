@@ -49,5 +49,5 @@ def process_directory(directory):
 
 
 # Replace with your folder path
-midi_folder = "./26bin_5-31"
+midi_folder = "./8bin_preset_vel"
 process_directory(midi_folder)
