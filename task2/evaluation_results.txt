@@ -1,0 +1,965 @@
+File: baseline_english_1_1748804204.7677963.mid
+(4, 0.6468253968253969)
+Key i:
+  Pitches: 28
+
+Key t:
+  Pitches: 25
+
+Key w:
+  Pitches: 22
+
+Key a:
+  Pitches: 31
+
+Key s:
+  Pitches: 32
+
+Key b:
+  Pitches: 44
+
+Key r:
+  Pitches: 24
+
+Key g:
+  Pitches: 35
+
+Key h:
+  Pitches: 36
+
+Key c:
+  Pitches: 42
+
+Key o:
+  Pitches: 29
+
+Key l:
+  Pitches: 39
+
+Key d:
+  Pitches: 33
+
+Key y:
+  Pitches: 26
+
+Key n:
+  Pitches: 45
+
+Key p:
+  Pitches: 30
+
+Key e:
+  Pitches: 23
+
+Key k:
+  Pitches: 38
+
+Key m:
+  Pitches: 46
+
+Key u:
+  Pitches: 27
+
+Key z:
+  Pitches: 40
+
+Key f:
+  Pitches: 34
+
+Key v:
+  Pitches: 43
+
+Key q:
+  Pitches: 21
+
+File: baseline_english_2_1748804270.5347235.mid
+(0, 0.6462882096069869)
+Key t:
+  Pitches: 25
+
+Key h:
+  Pitches: 36
+
+Key e:
+  Pitches: 23
+
+Key l:
+  Pitches: 39
+
+Key a:
+  Pitches: 31
+
+Key n:
+  Pitches: 45
+
+Key w:
+  Pitches: 22
+
+Key i:
+  Pitches: 28
+
+Key d:
+  Pitches: 33
+
+Key m:
+  Pitches: 46
+
+Key u:
+  Pitches: 27
+
+Key c:
+  Pitches: 42
+
+Key o:
+  Pitches: 29
+
+Key f:
+  Pitches: 34
+
+Key p:
+  Pitches: 30
+
+Key s:
+  Pitches: 32
+
+Key r:
+  Pitches: 24
+
+Key k:
+  Pitches: 38
+
+Key g:
+  Pitches: 35
+
+Key b:
+  Pitches: 44
+
+Key q:
+  Pitches: 21
+
+Key y:
+  Pitches: 26
+
+Key v:
+  Pitches: 43
+
+File: baseline_performance_1_1748805328.6347704.mid
+(4, 0.6428571428571429)
+Key a:
+  Pitches: 31
+
+Key d:
+  Pitches: 33
+
+Key g:
+  Pitches: 35
+
+Key s:
+  Pitches: 32
+
+Key p:
+  Pitches: 30
+
+Key o:
+  Pitches: 29
+
+Key f:
+  Pitches: 34
+
+File: baseline_performance_1_1748805631.1922073.mid
+(4, 0.6428571428571429)
+Key a:
+  Pitches: 31
+
+Key d:
+  Pitches: 33
+
+Key g:
+  Pitches: 35
+
+Key s:
+  Pitches: 32
+
+Key p:
+  Pitches: 30
+
+Key o:
+  Pitches: 29
+
+Key f:
+  Pitches: 34
+
+File: baseline_performance_1_1748805649.1638663.mid
+(4, 0.6428571428571429)
+Key a:
+  Pitches: 31
+
+Key d:
+  Pitches: 33
+
+Key g:
+  Pitches: 35
+
+Key s:
+  Pitches: 32
+
+Key p:
+  Pitches: 30
+
+Key o:
+  Pitches: 29
+
+Key f:
+  Pitches: 34
+
+File: baseline_performance_2_1748805691.4368095.mid
+(5, 0.7096774193548387)
+Key z:
+  Pitches: 40
+
+Key v:
+  Pitches: 43
+
+Key b:
+  Pitches: 44
+
+Key n:
+  Pitches: 45
+
+Key k:
+  Pitches: 38
+
+Key m:
+  Pitches: 46
+
+Key f:
+  Pitches: 34
+
+Key j:
+  Pitches: 37
+
+Key l:
+  Pitches: 39
+
+Key d:
+  Pitches: 33
+
+File: baseline_performance_2_1748805698.2579043.mid
+(5, 0.7096774193548387)
+Key z:
+  Pitches: 40
+
+Key v:
+  Pitches: 43
+
+Key b:
+  Pitches: 44
+
+Key n:
+  Pitches: 45
+
+Key k:
+  Pitches: 38
+
+Key m:
+  Pitches: 46
+
+Key f:
+  Pitches: 34
+
+Key j:
+  Pitches: 37
+
+Key l:
+  Pitches: 39
+
+Key d:
+  Pitches: 33
+
+File: output_english_1_1748804467.0220675.mid
+(1, 0.6865079365079365)
+Key i:
+  Pitches: 42, 40, 41, 44, 45, 46, 47, 48
+
+Key t:
+  Pitches: 49, 48, 50, 51, 52, 53, 54, 57, 56
+
+Key w:
+  Pitches: 48, 51, 50, 56, 58, 60
+
+Key a:
+  Pitches: 30, 31, 32, 33, 37
+
+Key s:
+  Pitches: 47, 48, 49, 50, 51, 53, 55, 54, 58, 57
+
+Key b:
+  Pitches: 32, 33
+
+Key r:
+  Pitches: 46, 48, 47, 50, 49, 51, 52, 56
+
+Key g:
+  Pitches: 39, 40, 42, 43, 44, 45
+
+Key h:
+  Pitches: 41, 42, 44, 45, 47
+
+Key c:
+  Pitches: 36, 37, 38, 39
+
+Key o:
+  Pitches: 46, 47, 48, 50, 49, 51, 53, 55
+
+Key l:
+  Pitches: 43, 44, 45, 46, 47, 49, 51
+
+Key d:
+  Pitches: 37, 38, 39, 40
+
+Key y:
+  Pitches: 53, 57, 58, 61
+
+Key n:
+  Pitches: 45, 46, 47, 50, 49, 52, 53, 54
+
+Key p:
+  Pitches: 46, 48, 49, 53
+
+Key e:
+  Pitches: 39, 38, 40, 41, 44
+
+Key k:
+  Pitches: 44, 43, 45, 48
+
+Key m:
+  Pitches: 44, 47, 51
+
+Key u:
+  Pitches: 51, 53, 54, 56, 58
+
+Key z:
+  Pitches: 54, 56
+
+Key f:
+  Pitches: 40, 39, 41, 44
+
+Key v:
+  Pitches: 54, 56, 57
+
+Key q:
+  Pitches: 51, 54
+
+File: output_english_1_1748804472.0935662.mid
+(1, 0.6904761904761905)
+Key i:
+  Pitches: 43, 40, 41, 42, 44, 45, 46, 47, 48
+
+Key t:
+  Pitches: 48, 50, 49, 51, 53, 54, 56, 57, 58
+
+Key w:
+  Pitches: 48, 51, 57, 58, 61
+
+Key a:
+  Pitches: 31, 30, 32, 33, 36, 37
+
+Key s:
+  Pitches: 47, 48, 49, 50, 53, 55, 52, 54, 56, 57
+
+Key b:
+  Pitches: 33, 32
+
+Key r:
+  Pitches: 46, 48, 47, 49, 51, 52, 53, 55, 56, 57
+
+Key g:
+  Pitches: 39, 40, 42, 44, 45, 46
+
+Key h:
+  Pitches: 40, 41, 44, 45, 46, 48
+
+Key c:
+  Pitches: 35, 36, 37, 38, 40
+
+Key o:
+  Pitches: 46, 47, 49, 51, 48, 50, 52, 53, 54, 55
+
+Key l:
+  Pitches: 43, 44, 46, 47, 49, 51
+
+Key d:
+  Pitches: 37, 38, 39, 40
+
+Key y:
+  Pitches: 54, 57, 58, 61
+
+Key n:
+  Pitches: 45, 46, 47, 50, 49, 51, 53, 54
+
+Key p:
+  Pitches: 47, 48, 49, 54
+
+Key e:
+  Pitches: 38, 39, 40, 41, 44
+
+Key k:
+  Pitches: 44, 43, 45, 47
+
+Key m:
+  Pitches: 45, 47, 51
+
+Key u:
+  Pitches: 51, 54, 56, 58
+
+Key z:
+  Pitches: 54, 56
+
+Key f:
+  Pitches: 40, 39, 41, 44
+
+Key v:
+  Pitches: 55, 57, 58
+
+Key q:
+  Pitches: 51, 54
+
+File: output_english_1_1748804484.7478225.mid
+(3, 0.6865079365079365)
+Key i:
+  Pitches: 43, 40, 41, 42, 44, 45, 46, 47, 48
+
+Key t:
+  Pitches: 48, 50, 49, 51, 52, 53, 54, 56, 57, 58
+
+Key w:
+  Pitches: 48, 51, 56, 58
+
+Key a:
+  Pitches: 31, 34, 32, 33, 30, 36
+
+Key s:
+  Pitches: 47, 48, 49, 50, 51, 53, 55, 54, 56, 57
+
+Key b:
+  Pitches: 32, 33
+
+Key r:
+  Pitches: 46, 47, 48, 50, 52, 53, 55, 56
+
+Key g:
+  Pitches: 39, 40, 42, 44, 45
+
+Key h:
+  Pitches: 40, 41, 42, 44, 45, 46, 47
+
+Key c:
+  Pitches: 34, 36, 37, 32, 38, 39
+
+Key o:
+  Pitches: 46, 47, 49, 50, 51, 52, 53, 55, 54
+
+Key l:
+  Pitches: 44, 46, 45, 47, 49, 51
+
+Key d:
+  Pitches: 37, 38, 39, 40
+
+Key y:
+  Pitches: 53, 57, 58, 59
+
+Key n:
+  Pitches: 45, 46, 47, 50, 49, 51, 53, 54
+
+Key p:
+  Pitches: 46, 48, 49, 54
+
+Key e:
+  Pitches: 39, 38, 41, 40, 42, 44
+
+Key k:
+  Pitches: 44, 43, 45, 47
+
+Key m:
+  Pitches: 44, 48, 53
+
+Key u:
+  Pitches: 51, 54, 56, 57, 58
+
+Key z:
+  Pitches: 55, 56
+
+Key f:
+  Pitches: 40, 39, 41, 44
+
+Key v:
+  Pitches: 55, 57, 58
+
+Key q:
+  Pitches: 50, 54
+
+File: output_english_2_1748804434.1069958.mid
+(1, 0.6812227074235808)
+Key t:
+  Pitches: 54, 49, 50, 51, 53, 56, 57, 58
+
+Key h:
+  Pitches: 39, 41, 40, 42, 43, 44, 45, 46
+
+Key e:
+  Pitches: 37, 38, 39, 40, 41, 43, 42
+
+Key l:
+  Pitches: 43, 44, 45, 46, 47
+
+Key a:
+  Pitches: 31, 32, 33, 30, 29, 37
+
+Key n:
+  Pitches: 45, 44, 46, 47, 48, 50
+
+Key w:
+  Pitches: 51, 52, 53, 56, 57
+
+Key i:
+  Pitches: 41, 43, 44, 47
+
+Key d:
+  Pitches: 37, 38, 39, 40, 41
+
+Key m:
+  Pitches: 45
+
+Key u:
+  Pitches: 50, 51, 53, 56, 57
+
+Key c:
+  Pitches: 37, 36, 38
+
+Key o:
+  Pitches: 46, 48, 49, 50, 51, 53, 54
+
+Key f:
+  Pitches: 39, 44
+
+Key p:
+  Pitches: 46, 47
+
+Key s:
+  Pitches: 48, 49, 50, 54, 56
+
+Key r:
+  Pitches: 49, 47, 51, 54, 55
+
+Key k:
+  Pitches: 44, 45
+
+Key g:
+  Pitches: 41, 44, 45
+
+Key b:
+  Pitches: 34, 33, 36, 32, 37, 39
+
+Key q:
+  Pitches: 49
+
+Key y:
+  Pitches: 56, 57, 70, 61, 62
+
+Key v:
+  Pitches: 57
+
+File: output_english_2_1748804446.052948.mid
+(3, 0.6899563318777293)
+Key t:
+  Pitches: 54, 49, 50, 53, 55, 56, 57
+
+Key h:
+  Pitches: 39, 41, 40, 42, 43, 44, 45, 46
+
+Key e:
+  Pitches: 38, 37, 39, 40, 41, 42, 44
+
+Key l:
+  Pitches: 43, 44, 45, 47
+
+Key a:
+  Pitches: 31, 32, 33, 30, 29, 38
+
+Key n:
+  Pitches: 45, 44, 46, 47, 48, 50
+
+Key w:
+  Pitches: 51, 52, 53, 56, 55, 57
+
+Key i:
+  Pitches: 41, 43, 44, 47, 48
+
+Key d:
+  Pitches: 37, 38, 39, 40
+
+Key m:
+  Pitches: 44, 45
+
+Key u:
+  Pitches: 50, 51, 53, 56, 58
+
+Key c:
+  Pitches: 37, 36, 38
+
+Key o:
+  Pitches: 46, 48, 49, 50, 51, 52, 53, 54, 55
+
+Key f:
+  Pitches: 39, 44
+
+Key p:
+  Pitches: 46, 47
+
+Key s:
+  Pitches: 48, 49, 50, 54, 55, 56
+
+Key r:
+  Pitches: 48, 49, 52, 51, 55, 54
+
+Key k:
+  Pitches: 44, 46
+
+Key g:
+  Pitches: 41, 44
+
+Key b:
+  Pitches: 33, 36, 35, 37, 38, 39
+
+Key q:
+  Pitches: 50
+
+Key y:
+  Pitches: 56, 58, 61
+
+Key v:
+  Pitches: 57
+
+File: output_english_3_1748804822.122112.mid
+(3, 0.728110599078341)
+Key i:
+  Pitches: 39, 41, 43, 44, 46, 47
+
+Key f:
+  Pitches: 38, 39, 41, 44
+
+Key m:
+  Pitches: 44, 45, 48, 47, 55
+
+Key u:
+  Pitches: 48, 49, 56, 57, 58
+
+Key s:
+  Pitches: 47, 48, 50, 56, 55, 57, 58
+
+Key c:
+  Pitches: 36, 34
+
+Key b:
+  Pitches: 34, 32, 38
+
+Key e:
+  Pitches: 38, 39, 40, 41, 42, 43, 44
+
+Key t:
+  Pitches: 49, 48, 50, 51, 53, 54, 55, 56, 58
+
+Key h:
+  Pitches: 40, 41, 43, 44, 45, 49
+
+Key o:
+  Pitches: 46, 45, 48, 50, 51, 53, 52, 54, 55, 56
+
+Key d:
+  Pitches: 37, 38, 39, 40, 41, 42
+
+Key l:
+  Pitches: 44, 46, 47, 49, 51
+
+Key v:
+  Pitches: 51, 58
+
+Key p:
+  Pitches: 46, 54
+
+Key a:
+  Pitches: 31, 32, 33, 30, 36, 37
+
+Key y:
+  Pitches: 53, 57, 58
+
+Key n:
+  Pitches: 45, 46, 47, 49, 51, 53, 54, 55
+
+Key g:
+  Pitches: 39, 40, 41, 42, 45, 46
+
+Key x:
+  Pitches: 53
+
+Key r:
+  Pitches: 47, 49, 54, 55, 56, 57, 58
+
+Key k:
+  Pitches: 44, 46, 48
+
+Key w:
+  Pitches: 57
+
+File: output_english_3_1748804834.8243206.mid
+(3, 0.7235023041474654)
+Key i:
+  Pitches: 39, 41, 42, 43, 44, 46, 47
+
+Key f:
+  Pitches: 38, 39, 40, 44
+
+Key m:
+  Pitches: 44, 45, 48, 47, 55
+
+Key u:
+  Pitches: 48, 49, 56, 57, 58
+
+Key s:
+  Pitches: 48, 47, 50, 56, 57
+
+Key c:
+  Pitches: 36, 34
+
+Key b:
+  Pitches: 34, 32, 38
+
+Key e:
+  Pitches: 38, 39, 40, 41, 42, 43, 44, 45
+
+Key t:
+  Pitches: 49, 48, 50, 51, 53, 54, 56, 57, 58
+
+Key h:
+  Pitches: 41, 43, 44, 45, 47
+
+Key o:
+  Pitches: 46, 45, 48, 50, 53, 54, 55, 56
+
+Key d:
+  Pitches: 37, 38, 39, 40, 42, 43
+
+Key l:
+  Pitches: 44, 47, 46, 50, 51
+
+Key v:
+  Pitches: 51, 58
+
+Key p:
+  Pitches: 46, 55
+
+Key a:
+  Pitches: 32, 33, 31, 30, 36
+
+Key y:
+  Pitches: 53, 57, 58
+
+Key n:
+  Pitches: 45, 46, 47, 48, 50, 51, 53, 54, 56, 55
+
+Key g:
+  Pitches: 39, 41, 42, 45
+
+Key x:
+  Pitches: 53
+
+Key r:
+  Pitches: 47, 49, 53, 55, 56, 57, 58
+
+Key k:
+  Pitches: 44, 46, 48
+
+Key w:
+  Pitches: 58
+
+File: output_performance_1_1748805169.7088091.mid
+(1, 0.7380952380952381)
+Key a:
+  Pitches: 18, 31, 30, 32
+
+Key d:
+  Pitches: 35, 34, 37, 36
+
+Key g:
+  Pitches: 38, 39
+
+Key s:
+  Pitches: 46, 48, 47, 49
+
+Key p:
+  Pitches: 45, 46, 47
+
+Key o:
+  Pitches: 44
+
+Key f:
+  Pitches: 39
+
+File: output_performance_1_1748805218.55786.mid
+(6, 0.6904761904761905)
+Key a:
+  Pitches: 22, 30, 31
+
+Key d:
+  Pitches: 35, 37, 36
+
+Key g:
+  Pitches: 38
+
+Key s:
+  Pitches: 46, 45, 48, 47, 49
+
+Key p:
+  Pitches: 45, 44, 46
+
+Key o:
+  Pitches: 44
+
+Key f:
+  Pitches: 38, 39
+
+File: output_performance_2_1748805761.0151947.mid
+(3, 0.7419354838709677)
+Key z:
+  Pitches: 70, 50, 53
+
+Key v:
+  Pitches: 51, 48
+
+Key b:
+  Pitches: 32, 33
+
+Key n:
+  Pitches: 44, 43, 45
+
+Key k:
+  Pitches: 41
+
+Key m:
+  Pitches: 43, 44
+
+Key f:
+  Pitches: 38
+
+Key j:
+  Pitches: 41
+
+Key l:
+  Pitches: 43, 45
+
+Key d:
+  Pitches: 37
+
+File: output_performance_2_1748805798.0441349.mid
+(3, 0.7741935483870968)
+Key z:
+  Pitches: 70, 51, 53
+
+Key v:
+  Pitches: 51, 48
+
+Key b:
+  Pitches: 32, 33
+
+Key n:
+  Pitches: 44, 43, 45
+
+Key k:
+  Pitches: 41
+
+Key m:
+  Pitches: 43, 44
+
+Key f:
+  Pitches: 38
+
+Key j:
+  Pitches: 41
+
+Key l:
+  Pitches: 43, 44
+
+Key d:
+  Pitches: 37
+
+File: output_performance_2_1748805941.4645994.mid
+(3, 0.8064516129032258)
+Key z:
+  Pitches: 80, 50, 53
+
+Key v:
+  Pitches: 51, 48
+
+Key b:
+  Pitches: 32
+
+Key n:
+  Pitches: 44, 43, 45
+
+Key k:
+  Pitches: 41
+
+Key m:
+  Pitches: 43, 44, 45
+
+Key f:
+  Pitches: 38
+
+Key j:
+  Pitches: 41
+
+Key l:
+  Pitches: 43, 44
+
+Key d:
+  Pitches: 36
+
+File: output_performance_3_1748805951.9792469.mid
+(4, 0.7777777777777778)
+Key q:
+  Pitches: 53
+
+Key z:
+  Pitches: 54
+
+Key x:
+  Pitches: 49, 48
+
+Key v:
+  Pitches: 47, 48
+
+Key c:
+  Pitches: 32, 33
+
+Key n:
+  Pitches: 43, 44
+
+File: output_performance_3_1748805957.8815727.mid
+(4, 0.7777777777777778)
+Key q:
+  Pitches: 54
+
+Key z:
+  Pitches: 55
+
+Key x:
+  Pitches: 49, 48
+
+Key v:
+  Pitches: 47
+
+Key c:
+  Pitches: 33, 34, 32
+
+Key n:
+  Pitches: 43, 44
