@@ -290,74 +290,74 @@ def baseline(filename):
 
 
 # generate midi from timestamps
-# notes = []
+notes = []
 
-# filename = "performance_3.csv"
-# filename_no_ext = filename.split(".")[0]
+filename = "english_3.csv"
+filename_no_ext = filename.split(".")[0]
 
-# with open(filename, "r") as f:
-#     reader = csv.reader(f)
-#     # skip header
-#     next(reader)
-#     for row in reader:
-#         print(row)
-#         letter, time, wpm = row[0], row[1], row[2]
+with open(filename, "r") as f:
+    reader = csv.reader(f)
+    # skip header
+    next(reader)
+    for row in reader:
+        print(row)
+        letter, time, wpm = row[0], row[1], row[2]
 
-#         if not letter or not time or len(letter) != 1 or not letter.isalpha():
-#             # print("Skipping empty row")
-#             continue
+        if not letter or not time or len(letter) != 1 or not letter.isalpha():
+            # print("Skipping empty row")
+            continue
 
-#         if wpm == "Infinity" or wpm == "inf":
-#             wpm = 80
+        if wpm == "Infinity" or wpm == "inf":
+            wpm = 80
 
-#         # check if wpm is numeric
-#         # if not wpm.isnumeric():
-#         #     print(f"Skipping non-numeric wpm: {wpm}")
-#         #     continue
+        # check if wpm is numeric
+        # if not wpm.isnumeric():
+        #     print(f"Skipping non-numeric wpm: {wpm}")
+        #     continue
 
-#         time = float(time)
-#         wpm = float(wpm)
+        time = float(time)
+        wpm = float(wpm)
 
-#         print(letter, time, wpm)
-#         # convert letter to button index and velocity
-#         letter = letter.lower()
+        print(letter, time, wpm)
+        # convert letter to button index and velocity
+        letter = letter.lower()
 
-#         # velocity is used from mapping function, mapping is based on keyboard layout
-#         button = letter_to_button_26(letter)
-#         velocity = int(wpm) * 2
-#         # ensure velocity is in range 1-127
-#         velocity = max(1, min(127, velocity))
-#         k_prev, h, probs = step(b_i=button, t_i=time, v_i=velocity, k_prev=k_prev, h=h)
-#         notes.append((k_prev.item(), time, velocity))
-# print(notes)
+        # velocity is used from mapping function, mapping is based on keyboard layout
+        button = letter_to_button_26(letter)
+        velocity = int(wpm) * 2
+        # ensure velocity is in range 1-127
+        velocity = max(1, min(127, velocity))
+        k_prev, h, probs = step(b_i=button, t_i=time, v_i=velocity, k_prev=k_prev, h=h)
+        notes.append((k_prev.item(), time, velocity))
+print(notes)
 
 
-# # use baseline
+# use baseline
 
-# use_baseline = False
+use_baseline = True
 
-# if use_baseline:
-#     notes = baseline(filename)
+if use_baseline:
+    notes = baseline(filename)
 
-# pm = pretty_midi.PrettyMIDI()
-# instr = pretty_midi.Instrument(program=0)
+pm = pretty_midi.PrettyMIDI()
+instr = pretty_midi.Instrument(program=0)
 
-# for i, (note, onset, vel) in enumerate(notes):
-#     # define a duration for each note
-#     if i + 1 < len(notes):
-#         end = notes[i + 1][1]
-#     else:
-#         end = onset + 0.5
-#     pm_note = pretty_midi.Note(velocity=vel, pitch=note, start=onset, end=end)
-#     print(pm_note)
-#     instr.notes.append(pm_note)
+for i, (note, onset, vel) in enumerate(notes):
+    # define a duration for each note
+    if i + 1 < len(notes):
+        end = notes[i + 1][1]
+    else:
+        end = onset + 0.5
+    pm_note = pretty_midi.Note(velocity=vel, pitch=note, start=onset, end=end)
+    print(pm_note)
+    instr.notes.append(pm_note)
 
-# pm.instruments.append(instr)
-# filename = f"output_{filename_no_ext}_{time_lib.time()}.mid"
+pm.instruments.append(instr)
+filename = f"output_{filename_no_ext}_{time_lib.time()}.mid"
 
-# if use_baseline:
-#     filename = f"baseline_{filename_no_ext}_{time_lib.time()}.mid"
-# pm.write(filename)
+if use_baseline:
+    filename = f"baseline_{filename_no_ext}_{time_lib.time()}.mid"
+pm.write(filename)
 
 
 # run evals
