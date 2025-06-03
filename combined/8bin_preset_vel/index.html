@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <textarea id="t" rows="10" cols="60" placeholder="Start typing…"></textarea>
+    <br />
+    <button id="download">Download CSV</button>
+
+    <script>
+      let startTime = null;
+      // header row: Key and Seconds since first press
+      const rows = [["Key", "Seconds"]];
+
+      const log = (key, secs) => {
+        rows.push([key, secs.toFixed(3)]);
+      };
+
+      document.getElementById("t").addEventListener("keydown", (e) => {
+        if (startTime === null) {
+          startTime = performance.now();
+        }
+        const elapsedMs = performance.now() - startTime;
+        const elapsedSecs = elapsedMs / 1000;
+        log(e.key, elapsedSecs);
+      });
+
+      document.getElementById("download").addEventListener("click", () => {
+        const csvContent = rows.map((r) => r.join(",")).join("\n");
+        const blob = new Blob([csvContent], { type: "text/csv" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "typing_intervals.csv";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
+    </script>
+  </body>
+</html>
